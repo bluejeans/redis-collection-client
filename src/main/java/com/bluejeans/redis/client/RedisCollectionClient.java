@@ -33,7 +33,7 @@ public class RedisCollectionClient<T extends Serializable> {
 
     private static final String[] EMPTY_STRING_ARRAY = new String[0];
 
-    public static final class CollEntry<T> {
+    public static class CollEntry<T> {
         private final String coll, id;
         private final T value;
         private String parentColl;
